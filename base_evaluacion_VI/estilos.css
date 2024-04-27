@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #E3E3E6;
+	margin:0;
+
+	}
+
+#contenedor {
+	width:960px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+
+	
+	}
+
+header {
+	height:290px;
+	}
+
+h1 {
+	margin:0 0 0 40px;
+	font-size:36px;
+	color:#333;
+	
+	}
+
+a {
+	color:#80C141;
+	text-decoration:none;
+	}
+#botonera_principal {
+	width:940px;
+	height:70px;
+	border-left: 20px solid #80C141;
+	background-color:#FFF;
+	}
+
+#botonera_principal ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;}
+
+#botonera_principal ul li {
+	display: inline;
+}
+
+#botonera_principal ul li a {
+	display: inline-block;
+	color:#333;
+	text-decoration:none;
+	text-align: center;
+	border-right:1px dotted #CCC;
+	width: 187px;
+	height: 70px;
+	line-height: 70px;
+	
+	}
+	
+#botonera_principal ul li a:hover {
+	background-color:#80C141;
+	}
+	
+#marca {
+	background-image:url(imagenes/fondo_marca.jpg);
+	height:200px;
+	padding-top:27px;
+	border-left:solid 20px #333;
+
+	}
+
+#contenido {
+	padding:20px;
+	background-color:#FFF;
+	border-left: 20px solid #80C141;
+	
+	
+	}
+#uni4_1, #uni4_2, #uni4_3, #uni4_4 {
+	margin: 10px;
+}
+#uni4_1 {
+	background-color: #ffffcc;
+}
+#uni4_2 {
+	background-color: #e6ffcc;
+}
+#uni4_3 {
+	background-color: #ccf2ff;
+}
+#uni4_4 {
+	background-color: #ffccff;
+}
+
+.ajustar {
+	width: 100%;
+}
+
+h2 {
+	color:#666;}
+
+footer {
+	background-color:#80C141;
+	padding:20px;
+	border-left: 20px solid #333;
+
+	}
+
+footer a {
+	color:#FFF;
+	font-weight:bold;}
+
+
+.btn{
+	background-color: pink;
+	border: 10px;
+	padding: 15px 32px;
+	text-align:center;
+	color: #333;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border: solid grey 4px;
+}
+
+.wrapper-btn{
+	display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    left: 25%;
+	border-color: #333;
+}
+
+
+.noticias img {
+    max-width: 200px; /* Define el ancho máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+    /* Otros estilos específicos para las imágenes */
+}
+
+.noticias h3 {
+    font-size: 18px; /* Define el tamaño de fuente para los títulos */
+    color: #333; /* Define el color del texto para los títulos */
+    /* Otros estilos específicos para los títulos */
+}
+
+.noticias {
+    background-color: #f2f2f2; /* Define el color de fondo del contenedor */
+    padding: 20px; /* Añade un espacio alrededor del contenido dentro del contenedor */
+}
+
+
+#titulo_noticia{
+font-family:sans-serif;
+font-size:large;
+font-weight: bold;
+}
+
+#cuerpo_noticia{
+	font-family:sans-serif;
+	font-size: medium;
+	font-weight: normal;
+}
+
+input,select{
+	display: block;
+	margin: 15px;
+	width: 500px;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
